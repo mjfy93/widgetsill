@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+/* Custom drag region for moving the window */
+.drag-region {
+  -webkit-app-region: drag;
+}
+
+.drag-region button {
+  -webkit-app-region: no-drag;
+}
+
+/* Smooth rounded corners for the transparent window */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+}
